@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "m",
+        "pragmaFrag": "",
+        "throwIfNamespace": false
+      }
+    ]
+  ]
+}

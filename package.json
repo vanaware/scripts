@@ -4,7 +4,10 @@
   "description": "Vanaware Scripts",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "now-build": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -22,10 +25,13 @@
   },
   "homepage": "https://github.com/vanaware/scripts#readme",
   "dependencies": {
-    "parcel-bundler": "1.12.3"
+    "mithril": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "parcel-bundler": "^1.6.1"
   }
 }
