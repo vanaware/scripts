@@ -23,5 +23,9 @@
   "homepage": "https://github.com/vanaware/scripts#readme",
   "dependencies": {
     "parcel-bundler": "1.12.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   }
 }
