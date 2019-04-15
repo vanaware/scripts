@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "PARCEL_WORKERS=1 parcel index.html",
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
     "now-build": "yarn build"
@@ -28,11 +29,10 @@
     "mithril": "^2.0.0-rc.4"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
     "babel-cli": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015": "^6.24.1",
     "parcel-bundler": "^1.6.1"
   }
 }
