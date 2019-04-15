@@ -1,6 +1,6 @@
 // src/views/UserForm.js
-// var m = require("mithril")
-const m = require('mithril').default
+var m = require("mithril")
+//const m = require('mithril').default
 
 var User = require("../models/User")
 

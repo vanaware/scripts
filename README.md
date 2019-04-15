@@ -1,2 +1,0 @@
-# scripts
-vanaware scripts website
