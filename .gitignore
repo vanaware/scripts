@@ -62,6 +62,7 @@ typings/
 
 # temporary dir
 tmp
+.cache
 
 # dist folder - maintain only sources at git
 dist
