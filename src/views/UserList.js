@@ -1,16 +1,6 @@
 // src/views/UserList.js
-<<<<<<< HEAD
 // var m = require("mithril")
-<<<<<<< HEAD
-var m = require("mithril/mithril")
-// const m = require('mithril').default
-=======
-var m = require("mithril")
-//const m = require('mithril').default
->>>>>>> cac7510a0d62468d8cacb585501508e1a681a14b
-=======
 const m = require('mithril').default
->>>>>>> parent of 8c2e52d... @tarp/require test
 
 var User = require("../models/User")
 
