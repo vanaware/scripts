@@ -3696,7 +3696,7 @@ minizlib@^1.1.1:
   dependencies:
     minipass "^2.2.1"
 
-mithril@^2.0.0-rc.4:
+mithril@@next:
   version "2.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/mithril/-/mithril-2.0.0-rc.4.tgz#f0b669a2edc11c57eea79f08649dfa1635e0e16e"
   integrity sha512-Vea5rnb4Z7RUuQgB3/LSltZlYwR9dbuXwxTOlNyyfGu5FNC/FvfteR3Je5u95v8GGSgGN2mzmVrPXETOHOaOtA==

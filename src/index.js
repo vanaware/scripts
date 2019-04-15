@@ -1,18 +1,20 @@
 // src/index.js
-var UserList = require("./views/UserList");
-var UserForm = require("./views/UserForm");
-var Layout = require("./views/Layout");
-var m = require("mithril");
+var m = require("mithril").default
+//const m = require('mithril').default
 
-m.route(document.body,"/list",{
-  "/list": {
-    render: function() {
-      return m(Layout, m(UserList));
-    }
-  },
-  "/edit/:id": {
-    render: function(vnode) {
-      return m(Layout, m(UserForm, vnode.attrs));
-    }
-  }
-});
+var UserList = require("./views/UserList")
+var UserForm = require("./views/UserForm")
+var Layout = require("./views/Layout")
+
+m.route(document.body, "/list", {
+    "/list": {
+        render: function() {
+            return m(Layout, m(UserList))
+        }
+    },
+    "/edit/:id": {
+        render: function(vnode) {
+            return m(Layout, m(UserForm, vnode.attrs))
+        }
+    },
+})

@@ -15,7 +15,9 @@
     "url": "git+https://github.com/vanaware/scripts.git"
   },
   "keywords": [
+    "parcel",
     "static",
+    "mithril",
     "codesandbox"
   ],
   "author": "vanaware",
@@ -26,7 +28,7 @@
   },
   "homepage": "https://github.com/vanaware/scripts#readme",
   "dependencies": {
-    "mithril": "^2.0.0-rc.4"
+    "mithril": "@next"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

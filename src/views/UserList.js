@@ -1,5 +1,5 @@
 // src/views/UserList.js
-var m = require("mithril")
+var m = require("mithril").default
 //const m = require('mithril').default
 
 var User = require("../models/User")
