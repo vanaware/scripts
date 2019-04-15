@@ -1,6 +1,6 @@
 // src/views/UserList.js
-// var m = require("mithril")
-const m = require('mithril').default
+var m = require("mithril")
+//const m = require('mithril').default
 
 var User = require("../models/User")
 
