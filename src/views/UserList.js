@@ -1,7 +1,12 @@
 // src/views/UserList.js
+<<<<<<< HEAD
 // var m = require("mithril")
 var m = require("mithril/mithril")
 // const m = require('mithril').default
+=======
+var m = require("mithril")
+//const m = require('mithril').default
+>>>>>>> cac7510a0d62468d8cacb585501508e1a681a14b
 
 var User = require("../models/User")
 

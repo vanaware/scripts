@@ -23,8 +23,12 @@
   },
   "homepage": "https://github.com/vanaware/scripts#readme",
   "dependencies": {
+<<<<<<< HEAD
     "@tarp/require": "^1.3.0",
     "mithril": "^2.0.0-rc.4"
+=======
+    "mithril": "^1.1.6"
+>>>>>>> cac7510a0d62468d8cacb585501508e1a681a14b
   },
   "devDependencies": {}
 }
