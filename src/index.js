@@ -1,7 +1,7 @@
 // src/index.js
-// var m = require("mithril")
+var m = require("mithril/mithril")
 
-const m = require('mithril').default
+//const m = require('mithril').default
 
 var UserList = require("./views/UserList")
 var UserForm = require("./views/UserForm")

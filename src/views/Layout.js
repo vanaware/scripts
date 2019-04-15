@@ -1,6 +1,7 @@
 // src/views/Layout.js
 // var m = require("mithril")
-const m = require('mithril').default
+var m = require("mithril/mithril")
+//const m = require('mithril').default
 
 module.exports = {
     view: function(vnode) {
